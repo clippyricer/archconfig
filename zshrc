@@ -29,7 +29,7 @@ alias ls="exa"
 alias yazi="sudo yazi"
 alias ga="git add ."
 alias gp="git push"
-
+alias c="clear"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
