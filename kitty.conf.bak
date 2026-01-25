@@ -2998,7 +2998,7 @@ kitty_mod ctrl
 
 
 # BEGIN_KITTY_FONTS
-font_family      family="Hack"
+font_family      family="JetBrainsMono Nerd Font"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
