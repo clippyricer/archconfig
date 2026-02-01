@@ -1,0 +1,9 @@
+fastfetch
+exa
+yazi
+git
+cmatrix
+glow
+zsh
+zoxide
+fzf
