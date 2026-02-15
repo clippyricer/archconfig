@@ -35,6 +35,7 @@ alias cmatrix="cmatrix -u 10 -B f"
 alias g="glow"
 alias trash="gio trash"
 alias vi="nvim"
+alias docker="sudo docker"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
