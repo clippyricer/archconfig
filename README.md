@@ -5,7 +5,7 @@
 2. Run the install script `./install.sh`
 This will install dependencies too</br>
 and thats it!
-
+**YUM**
 
 
 
