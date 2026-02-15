@@ -7,5 +7,5 @@ glow
 zsh
 zoxide
 fzf
-neovim
+vim
 kitty
