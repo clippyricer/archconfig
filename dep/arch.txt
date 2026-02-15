@@ -7,3 +7,5 @@ glow
 zsh
 zoxide
 fzf
+neovim
+kitty
