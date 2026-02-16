@@ -42,16 +42,6 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
 
-# Random shell wrapper (idk what its for)
-gcd() {
-    local dir
-    dir=$(gitrepo)
-    if [[ -n "$dir" ]]; then
-        cd "$dir"
-    fi
-}
-
-
 # Zoxide
 
 compinit
