@@ -9,3 +9,5 @@ zoxide
 fzf
 vim
 kitty
+ripgrep
+fd
