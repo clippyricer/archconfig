@@ -7,8 +7,6 @@ kittyDir="~/.config/kitty/"
 cp kitty/* ~/.config/kitty/
 cp zsh/p10k.zsh ~/.p10k.zsh
 cp zsh/zshrc ~/.zshrc
-cp vim/vim ~/.vim
-cp vim/vimrc ~/.vimrc
 curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz
 unzip JetBrainsMono.tar.xz && mkdir /usr/share/fonts/JetBrainsMono/
 mv *.ttf /usr/share/fonts/JetBrainsMono/
