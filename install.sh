@@ -15,6 +15,7 @@ mv *.ttf /usr/share/fonts/JetBrainsMono/
 rm README.md && rm OFL.txt
 fc-cache -frv && rm JetBrainsMono.tar.xz
 git reset --hard HEAD
+cd $HOME && git clone https://github.com/romkatv/powerlevel10k.git
 
 echo "Done!"
 echo "To see effects close your terminal and open up kitty to see the effects"
