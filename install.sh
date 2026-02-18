@@ -14,6 +14,7 @@ unzip JetBrainsMono.tar.xz && mkdir /usr/share/fonts/JetBrainsMono/
 mv *.ttf /usr/share/fonts/JetBrainsMono/
 rm README.md && rm OFL.txt
 fc-cache -frv && rm JetBrainsMono.tar.xz
+git reset --hard HEAD
 
 echo "Done!"
 echo "To see effects close your terminal and open up kitty to see the effects"
