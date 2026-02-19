@@ -8,9 +8,9 @@ cp kitty/* ~/.config/kitty/
 cp zsh/p10k.zsh ~/.p10k.zsh
 cp zsh/zshrc ~/.zshrc
 curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz
-unzip JetBrainsMono.tar.xz && mkdir /usr/share/fonts/JetBrainsMono/
+tar -xvf JetBrainsMono.tar.xz && mkdir /usr/share/fonts/JetBrainsMono/
 mv *.ttf /usr/share/fonts/JetBrainsMono/
-rm README.md && rm OFL.txt
+rm *.md && rm *.txt
 fc-cache -frv && rm JetBrainsMono.tar.xz
 git reset --hard HEAD
 cd $HOME && git clone https://github.com/romkatv/powerlevel10k.git
