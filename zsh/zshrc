@@ -48,3 +48,6 @@ source <(fzf --zsh)
 
 compinit
 eval "$(zoxide init zsh --cmd cd)"
+
+# Fastfetch for arch flexing
+fastfetch
