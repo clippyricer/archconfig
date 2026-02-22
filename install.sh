@@ -4,9 +4,12 @@ sudo pacman -S $(cat dep/arch.txt)
 
 kittyDir="~/.config/kitty/"
 
-cp kitty/* ~/.config/kitty/
-cp zsh/p10k.zsh ~/.p10k.zsh
-cp zsh/zshrc ~/.zshrc
+git clone https://github.com/clippyricer/vimconfig.git $HOME/.vim
+rm -rf $HOME/.vimrc
+echo 'source ~/.vim/vimrc' >> $HOME/.vimrc
+cp kitty/* $HOME/.config/kitty/
+cp zsh/p10k.zsh $HOME/.p10k.zsh
+cp zsh/zshrc $HOME/.zshrc
 curl -OL https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz
 tar -xvf JetBrainsMono.tar.xz && sudo mkdir /usr/share/fonts/JetBrainsMono/
 sudo mv *.ttf /usr/share/fonts/JetBrainsMono/
